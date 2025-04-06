@@ -1,0 +1,49 @@
+# ------------------------
+# 📦 기본 무시 파일
+# ------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# ------------------------
+# 💻 IDE 관련
+# ------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+# .vscode/는 필요하면 주석 해제
+# .vscode/
+
+# ------------------------
+# 🐦 Flutter/Dart 관련
+# ------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+lib/generated_plugin_registrant.dart
+
+# ------------------------
+# 🌐 Web 관련
+web/.dart_tool/
+web/build/
+
+# ------------------------
+# 🧪 테스트/심볼 관련
+app.*.symbols
+app.*.map.json
+
+# ------------------------
+# ❗ 무시 예외 처리 (테스트용 등)
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
